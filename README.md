@@ -301,7 +301,8 @@ check_inventory（在庫確認）
 
 ```bash
 # 1. 依存ライブラリのインストール
-cd D:\ClaudeWork\inventory_agent
+git clone https://github.com/TakkunRed/General-MCP-Agent.git
+cd General-MCP-Agent
 uv sync
 
 # 2. .env を編集して接続先・モデル名を設定
